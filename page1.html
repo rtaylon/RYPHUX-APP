@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Controle Financeiro</title>
+</head>
+<body>
+    <header>
+        <h1>Controle Financeiro</h1>
+    </header>
+    <main>
+        <div class="aling">
+            <section class="type">
+                <label class="Gasto" for="Gasto">
+                    <input type="radio" id="Gasto">
+                    Gasto
+                </label>
+                <label class="Ganho" for="Ganho">
+                    <input type="radio" id="Ganho">
+                    Ganho
+                </label>
+            </section>
+        </div>
+        <section class="Desc">
+            <label for="descricao"></label>
+            <input type="text" id="descricao">
+            <p>Descrição</p>
+        </section>
+        <section class="Valor">
+            <label for="valor"></label>
+            <input type="number" id="valor">
+            <p>Valor</p>
+        </section>
+
+        <h2 class="Controleh2">Forma de Pagamento/Recebimento:</h2>
+
+        <section class="Controle">
+            <label for="Dinheiro">
+                <input type="radio" name="Dinheiro" id="Dinheiro">
+                Dinheiro
+            </label>
+            <label for="Pix">
+                <input type="radio" name="Pix" id="Pix">
+                Pìx
+            </label>
+            <label for="Cartão">
+                <input type="radio" name="Cartão" id="Cartão">
+                Cartão
+            </label>
+        </section>
+
+        <h2 class="Bancoh2">Bank</h2>
+
+        <section class="Banco">
+            <label for="Bradesco">
+                <input type="radio" name="Bradesco" id="Bradesco">
+                Bradesco
+            </label>
+            <label for="C6 Bank">
+                <input type="radio" name="C6 Bank" id="C6 Bank">
+                C6 Bank
+            </label>
+            <label for="Bybit">
+                <input type="radio" name="Bybit" id="Bybit">
+                Bybit
+            </label>
+            <label for="Dinheiro">
+                <input type="radio" name="Dinheiro" id="Dinheiro">
+                Dinheiro
+        </section>
+
+        <section class="Data">
+            <label for="dataHora"></label>
+            <input type="datetime-local" id="dataHora" class="input-data-hora">
+            <p>Data e Hora</p>
+        </section>
+
+
+        <label class="Salvar" for="Salvar">
+           <input type="submit" id="Salvar" name="Salvos" value="Salvar Transação"> 
+        </label>
+
+        <img src="imagens/ryphux black.png" alt="logo">
+    </main>
+    <script src="page1.js"></script>
+</body>
+</html>

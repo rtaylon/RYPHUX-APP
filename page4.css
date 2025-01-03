@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    text-transform: uppercase;
+}
+
+body {
+    background-color: black;
+    color: azure;
+}

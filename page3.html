@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="page3.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h2 class="title">Bem vindo ao Ryphux - Notes</h2>
+    <div class="escrita">
+        <!-- Área de texto para Modo Texto -->
+        <textarea id="folha-texto" class="modo-texto" placeholder="Escreva seu texto aqui..."></textarea>
+
+        <!-- Área de código para Modo Código -->
+        <textarea id="folha-codigo" class="modo-codigo" placeholder="Escreva seu código aqui..."></textarea>
+    </div>
+    <div class="modo">
+        <button id="modo-texto" onclick="alternarModo('texto')">Texto</button>
+        <button id="modo-codigo" onclick="alternarModo('codigo')">Code</button>
+    </div>
+    <h3 class="title-materias">Selecione a matéria</h3>
+    <div class="materias">
+        <div class="materia" onclick="adicionarMateria('Matemática')">Matemática</div>
+        <div class="materia" onclick="adicionarMateria('História')">História</div>
+        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
+        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
+        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
+    </div>
+
+    <div class="materias-adicionadas">
+        <h3>Matéria Selecionada</h3>
+        <ul id="lista-materias">
+            <!-- As matérias selecionadas aparecerão aqui -->
+        </ul>
+        </div>
+    <script src="page3.js"></script>
+</body>
+</html>

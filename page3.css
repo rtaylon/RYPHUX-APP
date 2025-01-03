@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #E9E9E9;
+    --cor2: #8a8a8a;
+    --cor3: #D4AF37;
+    --cor4: #00b2a9;
+    --cor5: #003d5b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Verdana;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    padding: 20px;
+}
+.title {
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--cor5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modo {
+    display: flex;
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 80px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--cor3);
+    background-color: var(--cor3);
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--cor2);
+}
+
+.escrita h2 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    border: 2px, solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: var(--cor2);
+}
+
+.modo-texto {
+    display: block;
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
+
+.modo-codigo {
+    display: none;
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--cor2);
+    color: var(--cor3);
+    border: 2px solid #dcdcdc;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+.materias {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.materia {
+    display: flex;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.materias > :not(h3) {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.materia:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+.materias-adicionadas h3 {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e9e9e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}

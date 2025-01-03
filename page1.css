@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #E9E9E9;
+    --cor2: #8a8a8a;
+    --cor3: #D4AF37;
+    --cor4: #00b2a9;
+    --cor5: #003d5b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    text-transform: uppercase;
+}
+
+header {
+ text-align: center;
+ font-size: 16px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.aling {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type > label {
+    width: 150px;
+    height: 60px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gasto {
+    color: var(--cor1);
+    background-color: red;
+}
+
+
+.Ganho {
+    color: var(--cor1);
+    background-color: green;
+}
+
+.Gasto:hover {
+    background-color: var(--cor1);
+    color: red;
+}
+
+
+.Ganho:hover {
+    background-color: var(--cor1);
+    color: green;
+}
+
+.Desc {
+    border: 10px;
+    margin: 10px;
+}
+
+.Desc > input {
+    width: 350px;
+    height: 20px;
+    border: none;
+    border-bottom: 3px solid var(--cor3);
+    margin: auto;
+    display: flex;
+    text-align: center;
+   
+}
+
+.Desc > p {
+    font-size: 24px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Valor > input {
+    width: 350px;
+    height: 20px;
+    border: none;
+    border-bottom: 3px solid var(--cor3);
+    margin: auto;
+    display: flex;
+    text-align: center;
+   
+}
+
+.Valor > p {
+    font-size: 24px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Controleh2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Controle {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Controle > label {
+    width: 150px;
+    height: 60px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor4);
+}
+
+.Controle input{
+    margin: 5px;
+}
+
+.Bancoh2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Banco {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banco > label {
+    width: 150px;
+    height: 60px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor4);
+}
+
+.Banco input{
+    margin: 5px;
+}
+
+.Data > input {
+    width: 170px;
+    height: 20px;
+    border: none;
+    border-bottom: 3px solid var(--cor3);
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.Data > p {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Salvar {
+    
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--cor4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Salvar input {
+    border: 3px solid black;
+    width: 300px;
+    height: 50px;
+    background-color: #00b2a9;
+
+}
+
+img {
+    padding-top: 20px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
