@@ -15,8 +15,8 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    background-color: var(--cor5);
-    color: var(--cor1);
+    background-color: var(--cor1);
+    color: var(--cor5);
     text-transform: uppercase;
     font-family: none;
 }

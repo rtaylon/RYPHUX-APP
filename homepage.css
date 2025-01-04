@@ -20,14 +20,14 @@
 }
 
 body {
-    background-color: var(--cor5);
-    color: var(--cor1);
+    background-color: var(--cor1);
+    color: var(--cor5);
     font-family: var(--fonte-padrao);
     text-transform: uppercase;
 }
 
 header {
-    color: var(--cor1);
+    color: var(--cor5);
     font-size: 16px;
     font-weight: bolder;
     text-align: center; 
@@ -40,7 +40,7 @@ main a {
     max-width: 200px;                 /* Largura fixa do retângulo */
     height: 15px;                /* Altura fixa do retângulo */
     background-color: var(--cor4);    /* Cor de fundo */
-    color: var(--cor1);
+    color: var(--cor5);
     border: 1px solid #000;       /* Borda ao redor do retângulo */
     border-radius: 10px;
     display: flex;                /* Flexbox para centralizar o texto dentro do retângulo */
