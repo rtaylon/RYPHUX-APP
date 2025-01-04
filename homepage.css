@@ -28,17 +28,17 @@ body {
 
 header {
     color: var(--cor1);
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bolder;
     text-align: center; 
-    margin: 20px 0px 70px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 main a {
     text-align: center;
-    padding: 70px;
-    width: 230px;                 /* Largura fixa do retângulo */
-    height: 30px;                /* Altura fixa do retângulo */
+    padding: 50px;
+    max-width: 200px;                 /* Largura fixa do retângulo */
+    height: 15px;                /* Altura fixa do retângulo */
     background-color: var(--cor4);    /* Cor de fundo */
     color: var(--cor1);
     border: 1px solid #000;       /* Borda ao redor do retângulo */
