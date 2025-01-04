@@ -36,11 +36,16 @@ header {
     align-items: center;
 }
 
+input[type="radio"] {
+    opacity: 0.2;
+    position: absolute;
+}
+
 .type > label {
-    width: 150px;
+    width: 90px;
     height: 60px;
     margin: 20px 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +79,7 @@ header {
 }
 
 .Desc > input {
-    width: 350px;
+    max-width: 300px;
     height: 20px;
     border: none;
     border-bottom: 3px solid var(--cor3);
@@ -85,13 +90,13 @@ header {
 }
 
 .Desc > p {
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 5px;
     text-align: center;
 }
 
 .Valor > input {
-    width: 350px;
+    max-width: 300px;
     height: 20px;
     border: none;
     border-bottom: 3px solid var(--cor3);
@@ -102,33 +107,39 @@ header {
 }
 
 .Valor > p {
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 5px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .Controleh2{
-    margin-top: 20px;
+
     text-align: center;
+    font-size: 16px;
 }
 
 .Controle {
     margin: auto;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .Controle > label {
-    width: 150px;
+    width: 90px;
     height: 60px;
-    margin: 20px 30px;
-    border-radius: 10px;
+    margin: 20px 20px;
+    border-radius: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cor4);
+}
+
+.Controle > label:hover {
+    background-color: var(--cor1);
+    color: var(--cor4);
 }
 
 .Controle input{
@@ -136,27 +147,32 @@ header {
 }
 
 .Bancoh2{
-    margin-top: 20px;
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .Banco {
     margin: auto;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .Banco > label {
-    width: 150px;
+    width: 95px;
     height: 60px;
     margin: 20px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cor4);
+}
+
+.Banco > label:hover {
+    background-color: var(--cor1);
+    color: var(--cor4);
 }
 
 .Banco input{
@@ -176,7 +192,7 @@ header {
 }
 
 .Data > p {
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
@@ -188,7 +204,7 @@ header {
     width: 300px;
     height: 50px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: var(--cor4);
     display: flex;
     justify-content: center;
