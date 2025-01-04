@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
     <link rel="stylesheet" href="page3.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h2 class="title">Bem vindo ao Ryphux - Notes</h2>
-    <div class="escrita">
+    <h2 class="title">Ryphux - Notes</h2>
+    <div class="container">
         <!-- Área de texto para Modo Texto -->
         <textarea id="folha-texto" class="modo-texto" placeholder="Escreva seu texto aqui..."></textarea>
 
@@ -20,21 +20,70 @@
         <button id="modo-texto" onclick="alternarModo('texto')">Texto</button>
         <button id="modo-codigo" onclick="alternarModo('codigo')">Code</button>
     </div>
-    <h3 class="title-materias">Selecione a matéria</h3>
-    <div class="materias">
-        <div class="materia" onclick="adicionarMateria('Matemática')">Matemática</div>
-        <div class="materia" onclick="adicionarMateria('História')">História</div>
-        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
-        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
-        <div class="materia" onclick="adicionarMateria('embreve')">Em Breve</div>
-    </div>
 
     <div class="materias-adicionadas">
-        <h3>Matéria Selecionada</h3>
-        <ul id="lista-materias">
-            <!-- As matérias selecionadas aparecerão aqui -->
+        <h3>Matérias</h3>
+        <ul id="main-list">
+          <li>Livros
+            
+            <ul id="list2">
+                <li>Mais Esperto Que o Diabo
+                    <ul>
+                        <li>RESUMO GERAL
+                            <ul>
+                                <p>Publicado originalmente em 2011, muitos anos após ter sido escrito, Mais Esperto que o Diabo é uma obra revolucionária de Napoleon Hill que busca desvendar os maiores desafios enfrentados pela humanidade e como superá-los. No livro, Hill imagina uma entrevista com o próprio Diabo, personificando as forças negativas que nos impedem de atingir nosso verdadeiro potencial. Através dessa conversa fictícia, ele explora conceitos profundos sobre medo, dúvida, procrastinação e a falta de propósito
+                                
+                                O autor começa compartilhando suas experiências pessoais e as lições aprendidas ao longo de sua jornada. Ele detalha como enfrentou adversidades, incluindo fracassos financeiros e emocionais, até atingir a clareza mental necessária para refletir sobre os princípios que governam o sucesso e o fracasso. Essa reflexão dá origem à fictícia "entrevista com o Diabo", onde Hill o interroga sobre como ele controla e manipula a mente das pessoas.
+                                    
+                                Hill revela que o maior aliado do Diabo é o medo, que paralisa a maioria das pessoas e as impede de agir em busca de seus objetivos. O Diabo também admite usar ferramentas como a "deriva" — o estado em que as pessoas vivem sem propósito definido, entregues ao acaso e à mediocridade. Esse conceito centraliza o livro, alertando os leitores sobre a importância de uma vida focada em objetivos claros e consistentes.
+                                    
+                                A obra apresenta soluções práticas para combater essas influências negativas. Hill propõe o desenvolvimento de autodisciplina, fé, resiliência e coragem como armas fundamentais contra o medo e a deriva. Ele enfatiza a importância de aprender com os erros, assumir o controle da própria mente e manter uma mentalidade positiva para alcançar a liberdade e o sucesso.
+                                    
+                                No final, Mais Esperto que o Diabo oferece uma visão transformadora sobre como vencer os maiores inimigos internos — medo, dúvida e falta de propósito — e viver uma vida plena e significativa. A mensagem central é clara: com determinação, clareza de propósito e controle mental, é possível superar qualquer obstáculo e alcançar o sucesso duradouro.</p>
+                            </ul>
+                        </li>
+                        <li>Capítulo 1 - Minha Primeira Entrevista com o Diabo</li>
+                        <li>Capítulo 2 - Uma Nova Odisseia no Conhecimento</li>
+                        <li>Capítulo 3 - O Diabo Confessa</li>
+                        <li>Capítulo 4 - Desvendando o Medo</li>
+                        <li>Capítulo 5 - O Mecanismo de Deriva</li>
+                        <li>Capítulo 6 - O Semeador de Discórdia</li>
+                        <li>Capítulo 7 - A Escola da Vida</li>
+                        <li>Capítulo 8 - A Semente da Fé</li>
+                        <li>Capítulo 9 - Como Combater o Diabo</li>
+                        <li>Capítulo 10 - O Triunfo da Autodisciplina</li>
+                        <li>Capítulo 11 - Liberdade e Sucesso</li>
+                    </ul>
+                </li>
+              <li>Pai Rico, Pai Pobre</li>
+              <li>O Homem Mais Rico da Babilônia</li>
+              <li>As Armas da Persuasão</li> 
+              <li>Melhores Livros
+                <ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus soluta dolorum laboriosam itaque qui. Alias iusto id sed esse ullam laboriosam est dignissimos iure, eum commodi iste, voluptas illum nam.</p>
+                </ul>
+              </li> 
+            </ul>   
+          <li>Códigos
+            <ul id="list2">
+              <li>Python
+                <ul>
+                  <li>Django</li>
+                  <li>Selenium</li>
+                  <li>Py Auto GUI</li>
+                </ul>
+              </li>
+              <li>Java</li>
+              <li>HTML e CSS</li>
+              <li>GitHub</li>
+            </ul>
+          </li>
+          <li>Em breve</li>
+          <li>Em breve</li>
+          <li>Em breve</li>
         </ul>
-        </div>
+      </div>
+    
     <script src="page3.js"></script>
 </body>
 </html>
